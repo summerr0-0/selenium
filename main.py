@@ -15,7 +15,7 @@ def print_hi():
     driver = webdriver.Chrome(service=service, options=option)
 
     # 페이지 이동
-    driver.get("https://kso.sta.kolonmall.com/login")
+    driver.get("")
     driver.get("")
     # 브라우저 정보
     print("driver.title : ", driver.title)
